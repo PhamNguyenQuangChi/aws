@@ -27,3 +27,22 @@ Trong workshop này, chúng ta sẽ triển khai toàn bộ hệ thống **Denta
 Thông qua workshop này, người đọc sẽ được hướng dẫn từng bước triển khai hệ thống từ chuẩn bị môi trường AWS, triển khai Frontend và Backend, cấu hình cơ sở dữ liệu, thiết lập các dịch vụ bảo mật, giám sát hoạt động của hệ thống, cho đến kiểm thử và dọn dẹp tài nguyên sau khi hoàn thành.
 
 ![AWS Architecture](/aws/images/5-Workshop/5.1-Workshop-overview/drawio.png)
+### Luồng hoạt động của hệ thống
+
+1. **Người dùng/Bác sĩ** truy cập website thông qua tên miền được quản lý bởi **Amazon Route 53**.
+
+2. **Amazon Route 53** chuyển hướng yêu cầu đến **Amazon CloudFront** để tối ưu tốc độ truy cập và phân phối nội dung.
+
+3. **AWS WAF** kiểm tra và lọc các request trước khi đến CloudFront nhằm ngăn chặn các cuộc tấn công như SQL Injection, Cross-Site Scripting (XSS) và các request bất thường.
+
+4. **Amazon CloudFront** phân phối giao diện ReactJS được triển khai trên **AWS Amplify** và các tài nguyên tĩnh lưu trữ trên **Amazon S3**.
+
+5. Khi người dùng thực hiện các chức năng như đăng nhập, đặt lịch khám hoặc quản lý dữ liệu, **Frontend (AWS Amplify)** sẽ gửi yêu cầu API đến **Application Load Balancer (ALB)**.
+
+6. **Application Load Balancer (ALB)** chuyển tiếp các request đến máy chủ **Amazon EC2** đang chạy ứng dụng **Spring Boot Backend**.
+
+7. **Amazon EC2** xử lý các nghiệp vụ của hệ thống như xác thực người dùng, quản lý bác sĩ, dịch vụ, lịch hẹn và các chức năng khác.
+
+8. Trong quá trình xử lý, **Amazon EC2** lưu trữ và truy xuất hình ảnh từ **Amazon S3**, đồng thời sử dụng **Amazon SES** và **Amazon SNS** để gửi email và thông báo khi cần thiết.
+
+9. Cuối cùng, **Amazon EC2** đọc và ghi dữ liệu vào **Amazon DynamoDB**. Đồng thời, **Amazon CloudWatch** giám sát hoạt động của hệ thống và gửi cảnh báo thông qua **Amazon SNS** khi phát hiện sự cố hoặc các chỉ số vượt ngưỡng cấu hình.
