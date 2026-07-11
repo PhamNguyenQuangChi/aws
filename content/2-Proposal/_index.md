@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-# Dental Clinic System
+# Dental Clinic Management System
 ## Dental Clinic Appointment and Management Website on AWS Cloud
 
 ### 1. Executive Summary

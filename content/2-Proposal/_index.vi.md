@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 2. </b> "
 ---
 
-# Dental Clinic System
+# Dental Clinic Management System
 ## Website đặt lịch và quản lý phòng khám nha khoa trên nền tảng AWS Cloud
 
 ### 1. Tóm tắt điều hành
