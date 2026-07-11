@@ -34,38 +34,22 @@ The workshop covers the deployment and configuration of the following AWS servic
 By following this workshop, readers will learn how to prepare the AWS environment, deploy both frontend and backend applications, configure database and storage services, implement security best practices, monitor system performance, and perform resource cleanup after deployment.
 
 ![AWS Architecture](/aws/images/5-Workshop/5.1-Workshop-overview/drawio.png)
-/**
- * SYSTEM WORKFLOW
- *
- * 1. User/Doctor accesses the website via a domain name managed by Amazon Route 53.
- *
- * 2. Amazon Route 53 routes the request to Amazon CloudFront to optimize
- *    access speed and content delivery.
- *
- * 3. AWS WAF inspects and filters requests before they reach CloudFront,
- *    protecting against attacks such as SQL Injection, Cross-Site Scripting (XSS),
- *    and other abnormal/malicious requests.
- *
- * 4. Amazon CloudFront distributes the ReactJS frontend deployed on AWS Amplify,
- *    along with static assets stored in Amazon S3.
- *
- * 5. When the user performs actions such as login, appointment booking, or
- *    data management, the Frontend (AWS Amplify) sends API requests to the
- *    Application Load Balancer (ALB).
- *
- * 6. The Application Load Balancer (ALB) forwards these requests to the
- *    Amazon EC2 instance(s) running the Spring Boot backend application.
- *
- * 7. Amazon EC2 handles the core business logic of the system, including
- *    user authentication, doctor management, service management,
- *    appointment scheduling, and other functions.
- *
- * 8. During processing, Amazon EC2 stores and retrieves images from Amazon S3,
- *    and uses Amazon SES and Amazon SNS to send emails and notifications
- *    when needed.
- *
- * 9. Finally, Amazon EC2 reads from and writes to Amazon DynamoDB.
- *    Meanwhile, Amazon CloudWatch monitors system activity and sends alerts
- *    via Amazon SNS when it detects issues or metrics exceeding configured
- *    thresholds.
- */
+### System Flow
+
+1. **Users/Doctors** access the website via a domain managed by **Amazon Route 53**.
+
+2. **Amazon Route 53** redirects requests to **Amazon CloudFront** to optimize access speed and content delivery.
+
+3. **AWS WAF** inspects and filters requests before they reach CloudFront to prevent attacks such as SQL Injection, Cross-Site Scripting (XSS), and unusual requests.
+
+4. **Amazon CloudFront** distributes the ReactJS interface deployed on **AWS Amplify** and static resources hosted on **Amazon S3**.
+
+5. When users perform functions such as logging in, scheduling appointments, or managing data, **Frontend (AWS Amplify)** sends API requests to the **Application Load Balancer (ALB)**.
+
+6. The Application Load Balancer (ALB) forwards requests to the Amazon EC2 server running the Spring Boot Backend application.
+
+7. Amazon EC2 handles system business processes such as user authentication, doctor management, services, appointments, and other functions.
+
+8. During processing, Amazon EC2 stores and retrieves images from Amazon S3 and uses Amazon SES and Amazon SNS to send emails and notifications as needed.
+
+9. Finally, Amazon EC2 reads and writes data to Amazon DynamoDB. Amazon CloudWatch monitors system activity and sends alerts via Amazon SNS when it detects problems or exceeds configured thresholds.

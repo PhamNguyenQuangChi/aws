@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-During my internship at Amazon Web Services Viet Nam Company Limited from April 20, 2026 to July 20, 2026, I had the opportunity to learn, practice, and apply the knowledge I acquired at university in a real working environment.  
+During my internship at Amazon Web Services Viet Nam Company Limited from April 17, 2026 to July 30, 2026, I had the opportunity to learn, practice, and apply the knowledge I acquired at university in a real working environment.  
 I participated in describing and working on main tasks/projects, through which I improved my programming, analytical, reporting, and communication skills.
 
 In terms of working attitude, I always tried to complete assigned tasks, comply with company regulations, and actively communicate with team members to improve work efficiency.
