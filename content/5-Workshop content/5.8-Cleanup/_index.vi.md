@@ -18,7 +18,7 @@ Trong phần này, chúng ta sẽ lần lượt xóa các tài nguyên đã sử
 4. Chọn **Instance state → Terminate instance**.
 5. Xác nhận thao tác xóa.
 
-![Terminate EC2](/images/5-Workshop/5.1-Workshop-overview/xoaEC2.png)
+![Terminate EC2](/aws/images/5-Workshop/5.1-Workshop-overview/xoaEC2.png)
 
 ---
 

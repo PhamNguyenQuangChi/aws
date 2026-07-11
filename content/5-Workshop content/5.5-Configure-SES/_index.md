@@ -15,7 +15,7 @@ Log in to the **AWS Management Console**, search for **Amazon SES**, and select 
 
 Select **Create identity**, then choose **Email address** and enter the email address that will be used to send notifications from the system.
 
-![Amazon SES Identity](/images/5-Workshop/5.1-Workshop-overview/SES.png)
+![Amazon SES Identity](/aws/images/5-Workshop/5.1-Workshop-overview/SES.png)
 
 Once created successfully, AWS will send a verification email to the registered address. Open the email and click **Verify email address** to complete the verification process.
 
@@ -33,7 +33,7 @@ dental-clinic-notification
 
 Then click **Create topic** to create the Topic.
 
-![Amazon SNS Topic](/images/5-Workshop/5.1-Workshop-overview/SNS.png)
+![Amazon SNS Topic](/aws/images/5-Workshop/5.1-Workshop-overview/SNS.png)
 
 Once created successfully, the system will generate a **Topic ARN**, which the Backend will use to send notifications to Amazon SNS.
 

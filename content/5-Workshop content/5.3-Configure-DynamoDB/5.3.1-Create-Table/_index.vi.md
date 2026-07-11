@@ -59,6 +59,6 @@ Các bảng được tạo tự động gồm:
 
 Sau khi ứng dụng khởi động thành công, truy cập **AWS Console → DynamoDB → Tables** để kiểm tra các bảng đã được tạo.
 
-![DynamoDB Tables](/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
+![DynamoDB Tables](/aws/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
 
 Nếu các bảng hiển thị trạng thái **Active**, quá trình khởi tạo bảng DynamoDB đã hoàn tất.

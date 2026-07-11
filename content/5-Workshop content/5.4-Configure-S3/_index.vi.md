@@ -21,7 +21,7 @@ Thiết lập các thông tin cơ bản:
 
 Sau khi hoàn tất cấu hình, chọn **Create bucket**.
 
-![Amazon S3 Bucket](/images/5-Workshop/5.1-Workshop-overview/S3.png)
+![Amazon S3 Bucket](/aws/images/5-Workshop/5.1-Workshop-overview/S3.png)
 
 Sau khi tạo thành công, Bucket `dental-service-images-huy` sẽ xuất hiện trong danh sách Buckets và sẵn sàng để sử dụng.
 

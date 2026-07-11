@@ -21,7 +21,7 @@ Tạo hoặc sử dụng IAM User **dental-backend-user** và gắn các AWS Man
 - AmazonS3FullAccess
 - AmazonSESFullAccess
 - CloudWatchFullAccess
-![create stack](/images/5-Workshop/5.2-Prerequisite/IAM.png)
+![create stack](/aws/images/5-Workshop/5.2-Prerequisite/IAM.png)
 Các quyền này cho phép triển khai và quản lý các dịch vụ AWS được sử dụng trong hệ thống.
 
 #### Chuẩn bị tài nguyên AWS
@@ -43,7 +43,7 @@ Trong workshop này, hệ thống sử dụng VPC **PVH** với dải mạng:
 
 VPC này là môi trường mạng riêng để triển khai các tài nguyên AWS của hệ thống như EC2, Subnet, Security Group và Route Table.
 
-![VPC](/FCJ_Group_5_AE_C6/images/5-Workshop/5.1-Workshop-overview/vpc.png)
+![VPC](/aws/images/5-Workshop/5.1-Workshop-overview/vpc.png)
 
 #### Chuẩn bị Route Table
 
@@ -56,7 +56,7 @@ Trong hệ thống, VPC **PVH** có các Route Table chính:
 
 Khi triển khai Backend trên EC2 và cần truy cập từ Internet, Instance nên được đặt trong **Public Subnet** và sử dụng **Route Table Public**.
 
-![Route Table](/FCJ_Group_5_AE_C6/images/5-Workshop/5.1-Workshop-overview/router.png)
+![Route Table](/aws/images/5-Workshop/5.1-Workshop-overview/router.png)
 #### Kiểm tra môi trường
 
 Sau khi hoàn tất các bước trên, kiểm tra IAM User và các dịch vụ AWS đã sẵn sàng trước khi bắt đầu triển khai hệ thống ở các phần tiếp theo.

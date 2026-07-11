@@ -22,7 +22,7 @@ Create or use an IAM User named **dental-backend-user** and attach the following
 - AmazonSESFullAccess
 - CloudWatchFullAccess
 
-![create stack](/images/5-Workshop/5.2-Prerequisite/IAM.png)
+![create stack](/aws/images/5-Workshop/5.2-Prerequisite/IAM.png)
 
 These permissions allow the IAM User to deploy and manage the AWS services required by the system.
 

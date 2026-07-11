@@ -73,4 +73,4 @@ https://docs.aws.amazon.com/.../develope.../waf-chapter.html
 
 https://docs.aws.amazon.com/.../aws-waf-and-shield.html
 
-![Picture](/images/3-BlogsPosted/Blog2.jpg)
+![Picture](/aws/images/3-BlogsPosted/Blog2.jpg)

@@ -142,7 +142,7 @@ Tham gia chuỗi hội thảo First Cloud Journey là trải nghiệm học tậ
 1. **"Never test in production"** — Bảo vệ tính sẵn sàng của hệ thống là bảo vệ uy tín và thời gian của cả đội ngũ.
 2. Giải pháp bảo mật dựa trên chữ ký (Signature-based) không đủ trước mối đe dọa hiện đại; cần kết hợp giám sát hành vi bằng ML.
 3. Hiện đại hóa ứng dụng qua mô hình đồ thị tri thức (GraphRAG) giải quyết hạn chế liên kết tài liệu đa bước của RAG truyền thống.
-![Buổi event](/images/4-Event/event2.jpg)
+![Buổi event](/aws/images/4-Event/event2.jpg)
 ---
 
 

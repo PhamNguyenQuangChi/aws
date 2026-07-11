@@ -11,6 +11,6 @@ Sau khi hoàn tất cấu hình Amazon SES và kết nối Backend, tiến hành
 
 Nếu cấu hình chính xác, người nhận sẽ nhận được email thông báo được gửi từ hệ thống **Dental Clinic Management System**.
 
-![Email Notification](/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
+![Email Notification](/aws/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
 
 Đến đây, chức năng gửi email của hệ thống đã được cấu hình và hoạt động thành công.

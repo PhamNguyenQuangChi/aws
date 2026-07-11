@@ -27,7 +27,7 @@ Cấu hình EC2 như sau:
 
 Sau khi hoàn tất cấu hình, nhấn **Launch Instance** để tạo máy chủ EC2.
 
-![Create EC2](/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
+![Create EC2](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
 
 ---
 

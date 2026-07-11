@@ -18,7 +18,7 @@ In this section, we will go through and delete the resources used during the dep
 4. Select **Instance state → Terminate instance**.
 5. Confirm the deletion.
 
-![Terminate EC2](/images/5-Workshop/5.1-Workshop-overview/xoaEC2.png)
+![Terminate EC2](/aws/images/5-Workshop/5.1-Workshop-overview/xoaEC2.png)
 
 ---
 

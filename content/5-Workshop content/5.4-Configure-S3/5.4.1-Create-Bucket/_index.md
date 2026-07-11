@@ -21,7 +21,7 @@ In this step, we will create an **Amazon S3 Bucket** to store images for the **D
 
 Once created successfully, the Bucket will appear in the list of Buckets in Amazon S3.
 
-![Amazon S3 Bucket](/images/5-Workshop/5.1-Workshop-overview/S3.png)
+![Amazon S3 Bucket](/aws/images/5-Workshop/5.1-Workshop-overview/S3.png)
 
 ### Verify the Bucket
 
@@ -33,7 +33,7 @@ Inside the Bucket, the system has organized folders to manage images by function
 - **clinics/**: Stores clinic images.
 - **services/**: Stores service images.
 
-![Amazon S3 Objects](/images/5-Workshop/5.1-Workshop-overview/s3-objects.png)
+![Amazon S3 Objects](/aws/images/5-Workshop/5.1-Workshop-overview/s3-objects.png)
 
 ### Verify CloudFront
 
@@ -41,7 +41,7 @@ Once created successfully, the Distribution's status will change to **Enabled**.
 
 Copy the CloudFront **Domain name** to use in the Backend or Frontend when accessing images.
 
-![CloudFront Running](/images/5-Workshop/5.1-Workshop-overview/cloufront.png)
+![CloudFront Running](/aws/images/5-Workshop/5.1-Workshop-overview/cloufront.png)
 
 After completing this step, the system will use CloudFront to distribute images from Amazon S3, helping to increase loading speed and improve access performance.
 

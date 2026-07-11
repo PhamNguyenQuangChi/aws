@@ -62,7 +62,7 @@ keydental
 
 This Key Pair is used to connect via SSH to the EC2 Instance once the server has been launched.
 
-![EC2 Configuration](/images/5-Workshop/5.1-Workshop-overview/EC2p1.png)
+![EC2 Configuration](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p1.png)
 
 ### Configure the Security Group
 
@@ -84,7 +84,7 @@ The Source is configured as:
 
 to allow access from the Internet in this hands-on environment.
 
-![EC2 Security Group](/images/5-Workshop/5.1-Workshop-overview/EC2p2.png)
+![EC2 Security Group](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p2.png)
 
 ### Launch the EC2 Instance
 
@@ -100,6 +100,6 @@ Go back to the **Instances** page to check the status of the EC2 Instance.
 
 Once the Instance status changes to **Running** and the **Status check** shows success, the EC2 instance is ready to use.
 
-![EC2 Running](/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
+![EC2 Running](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
 
 Once this step is complete, we have successfully created the EC2 Instance used to deploy the system's Spring Boot Backend.

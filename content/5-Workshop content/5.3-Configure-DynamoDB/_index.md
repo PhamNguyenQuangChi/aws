@@ -29,6 +29,6 @@ The main tables used by the system are listed below:
 | categories | Stores blog categories |
 | clinics | Stores clinic information |
 
-![DynamoDB Tables](/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
+![DynamoDB Tables](/aws/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
 
 Verify that all tables are in the **Active** state before proceeding with the next deployment steps.

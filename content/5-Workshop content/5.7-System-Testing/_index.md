@@ -16,7 +16,7 @@ First, access the **Amazon EC2 Console** and check the status of the Instance.
 
 If the Instance shows a **Running** status and passes all **Status Checks**, this indicates that the server is ready to run the Backend application.
 
-![EC2 Running](/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
+![EC2 Running](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
 
 ---
 
@@ -26,7 +26,7 @@ Log in to the system and create or update some data.
 
 Then access **Amazon DynamoDB** to confirm that the data has been successfully saved to the system's tables.
 
-![DynamoDB](/images/5-Workshop/5.1-Workshop-overview/database.png)
+![DynamoDB](/aws/images/5-Workshop/5.1-Workshop-overview/database.png)
 
 ---
 
@@ -36,7 +36,7 @@ Upload an avatar or service image from the system's interface.
 
 Once the upload is successful, access **Amazon S3** and check the Bucket to confirm that the image file has been stored.
 
-![Amazon S3](/images/5-Workshop/5.1-Workshop-overview/s3avata.png)
+![Amazon S3](/aws/images/5-Workshop/5.1-Workshop-overview/s3avata.png)
 
 ---
 
@@ -46,7 +46,7 @@ Proceed to book an appointment or trigger the email-sending feature from the sys
 
 If the user receives a notification email in their Gmail inbox, this confirms that Amazon SES has been configured and is working correctly.
 
-![Amazon SES](/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
+![Amazon SES](/aws/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
 
 ---
 

@@ -54,7 +54,7 @@ keydental
 
 Key Pair này được sử dụng để kết nối SSH vào EC2 Instance sau khi máy chủ được khởi tạo.
 
-![EC2 Configuration](/images/5-Workshop/5.1-Workshop-overview/EC2p1.png)
+![EC2 Configuration](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p1.png)
 
 ### Cấu hình Security Group
 
@@ -76,7 +76,7 @@ Source được cấu hình là:
 
 để cho phép truy cập từ Internet trong môi trường thực hành.
 
-![EC2 Security Group](/images/5-Workshop/5.1-Workshop-overview/EC2p2.png)
+![EC2 Security Group](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p2.png)
 
 ### Khởi tạo EC2 Instance
 
@@ -92,6 +92,6 @@ Quay lại trang **Instances** để kiểm tra trạng thái của EC2 Instance
 
 Khi Instance chuyển sang trạng thái **Running** và **Status check** hiển thị thành công, EC2 đã sẵn sàng để sử dụng.
 
-![EC2 Running](/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
+![EC2 Running](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
 
 Sau khi hoàn tất bước này, chúng ta đã tạo thành công EC2 Instance dùng để triển khai Backend Spring Boot của hệ thống.

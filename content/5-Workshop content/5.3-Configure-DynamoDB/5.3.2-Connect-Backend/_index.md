@@ -48,6 +48,6 @@ Table already exists: clinics
 
 The Terminal output shows that the Backend has successfully connected to Amazon DynamoDB:
 
-![DynamoDB Tables](/images/5-Workshop/5.1-Workshop-overview/connetdb.png)
+![DynamoDB Tables](/aws/images/5-Workshop/5.1-Workshop-overview/connetdb.png)
 
 The logs above confirm that the Backend was able to access DynamoDB and successfully verify the system's data tables.

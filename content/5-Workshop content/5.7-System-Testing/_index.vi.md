@@ -16,7 +16,7 @@ Trong phần này, chúng ta sẽ xác minh rằng Backend trên Amazon EC2 đã
 
 Nếu Instance hiển thị trạng thái **Running** và vượt qua tất cả các **Status Checks**, điều đó cho thấy máy chủ đã sẵn sàng để chạy ứng dụng Backend.
 
-![EC2 Running](/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
+![EC2 Running](/aws/images/5-Workshop/5.1-Workshop-overview/EC2p3.png)
 
 ---
 
@@ -26,7 +26,7 @@ Nếu Instance hiển thị trạng thái **Running** và vượt qua tất cả
 
 Sau đó truy cập **Amazon DynamoDB** để xác nhận dữ liệu đã được lưu thành công vào các bảng của hệ thống.
 
-![DynamoDB](/images/5-Workshop/5.1-Workshop-overview/database.png)
+![DynamoDB](/aws/images/5-Workshop/5.1-Workshop-overview/database.png)
 
 ---
 
@@ -36,7 +36,7 @@ Thực hiện tải lên ảnh đại diện hoặc ảnh dịch vụ từ giao 
 
 Sau khi upload thành công, truy cập **Amazon S3** và kiểm tra Bucket để xác nhận tệp hình ảnh đã được lưu.
 
-![Amazon S3](/images/5-Workshop/5.1-Workshop-overview/s3avata.png)
+![Amazon S3](/aws/images/5-Workshop/5.1-Workshop-overview/s3avata.png)
 
 ---
 
@@ -46,7 +46,7 @@ Tiến hành đặt lịch khám hoặc thực hiện chức năng gửi email t
 
 Nếu người dùng nhận được email thông báo trong Gmail, chứng tỏ Amazon SES đã được cấu hình và hoạt động chính xác.
 
-![Amazon SES](/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
+![Amazon SES](/aws/images/5-Workshop/5.1-Workshop-overview/nhangmail.png)
 
 ---
 

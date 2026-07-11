@@ -143,7 +143,7 @@ Young experts such as Bao Huynh (Endava Vietnam), Gia Dai, Quoc Bao, and Viet Ph
 1. **"Never test in production"** — Protecting system availability is the highest form of protecting an infrastructure engineer's reputation and the entire team's time.
 2. Signature-based security solutions are insufficient against modern threats; they must be combined with machine-learning-based behavioral monitoring to build a comprehensive, proactive defense shield.
 3. Modernizing applications through knowledge graph models (GraphRAG) thoroughly resolves the multi-hop document-linking limitations of traditional RAG models.
-![Event](/images/4-Event/event2.jpg)
+![Event](/aws/images/4-Event/event2.jpg)
 ---
 
 ## Conclusion

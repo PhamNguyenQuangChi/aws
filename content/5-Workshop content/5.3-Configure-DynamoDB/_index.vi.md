@@ -30,6 +30,6 @@ Các bảng chính của hệ thống bao gồm:
 | clinics | Lưu thông tin phòng khám |
 
 
-![DynamoDB Tables](/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
+![DynamoDB Tables](/aws/images/5-Workshop/5.1-Workshop-overview/dynamodb-tables.png)
 
 Kiểm tra trạng thái của các bảng và đảm bảo tất cả đều ở trạng thái **Active** trước khi tiếp tục triển khai hệ thống.

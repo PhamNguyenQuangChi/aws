@@ -21,7 +21,7 @@ Trong bước này, chúng ta sẽ tạo một **Amazon S3 Bucket** để lưu t
 
 Sau khi tạo thành công, Bucket sẽ xuất hiện trong danh sách Buckets của Amazon S3.
 
-![Amazon S3 Bucket](/images/5-Workshop/5.1-Workshop-overview/S3.png)
+![Amazon S3 Bucket](/aws/images/5-Workshop/5.1-Workshop-overview/S3.png)
 
 ### Kiểm tra Bucket
 
@@ -33,7 +33,7 @@ Trong Bucket, hệ thống đã tổ chức các thư mục để quản lý hì
 - **clinics/**: Lưu hình ảnh phòng khám.
 - **services/**: Lưu hình ảnh dịch vụ.
 
-![Amazon S3 Objects](/images/5-Workshop/5.1-Workshop-overview/s3-objects.png)
+![Amazon S3 Objects](/aws/images/5-Workshop/5.1-Workshop-overview/s3-objects.png)
 
 ### Kiểm tra CloudFront
 
@@ -41,7 +41,7 @@ Sau khi tạo thành công, trạng thái của Distribution sẽ chuyển sang 
 
 Sao chép **Domain name** của CloudFront để sử dụng trong Backend hoặc Frontend khi truy cập hình ảnh.
 
-![CloudFront Running](/images/5-Workshop/5.1-Workshop-overview/cloufront.png)
+![CloudFront Running](/aws/images/5-Workshop/5.1-Workshop-overview/cloufront.png)
 
 Sau khi hoàn thành bước này, hệ thống sẽ sử dụng CloudFront để phân phối hình ảnh từ Amazon S3, giúp tăng tốc độ tải và cải thiện hiệu năng truy cập.
 Sau khi hoàn tất bước này, Amazon S3 đã sẵn sàng để Backend lưu trữ và truy xuất hình ảnh của hệ thống.
