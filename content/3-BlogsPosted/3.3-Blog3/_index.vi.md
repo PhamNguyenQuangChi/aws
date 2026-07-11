@@ -40,4 +40,4 @@ Thông qua bài này, mình hiểu rõ hơn rằng tự động hóa là yếu t
 
 Link tài liệu: https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html
 
-![Ảnh](/aws/images/3-BlogsPosted/Blog3.jpg)
+![Ảnh](/aws/images/blog_images/Blog3.jpg)
